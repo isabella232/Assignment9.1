@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- menu options created as Text color -->
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_title"
+        app:showAsAction="never">
+        <!-- Submenu created inside Text Color menu -->
+        <menu>
+            <item android:id="@+id/Red"
+                android:title="Red"/>
+            <item android:id="@+id/Green"
+                android:title="Green"/>
+            <item android:id="@+id/Blue"
+                android:title="Blue"/>
+        </menu>
+    </item>
+
+</menu>
